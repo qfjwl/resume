@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>个人简历</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+
+    <span id="preload">loading...</span>
+
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide1">
+                <div class="ani" id = "introTitle" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="0.3s">                   
+                    <p><img src="../images/person.png" alt="" class="ani" swiper-animate-effect="wobble" swiper-animate-duration="2s" swiper-animate-delay="1.3s"></p>
+                    <p class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="1.5s">个人简介</p>
+                </div>
+                <div id="myPic"> 
+                    <div>
+                        <img src="../images/circle.png" alt="" class="ani" swiper-animate-effect="rotateIn" swiper-animate-duration="2s" swiper-animate-delay="2.5s">
+                        <div id="my-pic" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="0" swiper-animate-delay="3.5s">
+                          <img src="../images/myPic.jpg" alt="" class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="2s" swiper-animate-delay="3.5s"> 
+                        </div>
+                    </div>
+                </div>
+                <div id="personIntor">
+                    <div id = "nameIntor">
+                        <div class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="3.5s"><img src="../images/3.png" alt=""></div>
+                        <p class="ani" swiper-animate-effect="flipInY" swiper-animate-duration="3s" swiper-animate-delay="5s">靳文龙</p>
+                    </div>
+                    <div id = "schoolIntor">
+                        <p class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="2s" swiper-animate-delay="3.5s">毕业院校：</p>
+                        <p class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="3.5s">河南工程学院</p>
+                    </div>
+                    <div id = "toUp">
+                        <img src="../images/arrow-up.png" alt="" class="ani animated infinite slideOutUp" swiper-animate-duration="1s" swiper-animate-delay="0">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide slide2">
+               
+            </div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+           
+        </div>
+    </div>
+    
+
+    <div id="mainContent">
+        <div id="header">iScroll</div>
+
+        <div id="wrapper">
+            <div id="scroller">
+                <ul>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div id="footer">
+             <div class="button" id = "skill">技能</div>
+             <div class="button" id = "project">作品</div>             
+             <div class="button" id = "work">经历</div>
+             <div class="button" id = "interest">兴趣</div>
+             <div class="button" id = "my">关于</div>
+
+        </div>
+    </div>
+<script src="js/index.js"></script>
+</body>
+</html>

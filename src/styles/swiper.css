@@ -1,0 +1,189 @@
+ /******************************************************************************** 
+    作者：靳文龙
+    
+*******************************************************************************/
+ html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;       
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/******************************************************************************** 
+    第一页头部样式    
+*******************************************************************************/
+.slide1{
+    width: 100%;
+    height: 100%;
+    background: url("../images/2.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+} 
+#introTitle{
+    width: 100%;
+    font-size: 50px;    
+    font-weight: 900;
+    color: #ffffff;   
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    flex: 1;
+ }
+#introTitle p:nth-child(1){
+    flex: 1;
+    justify-content: flex-end;   
+}
+#introTitle p img{
+    display: inline-block;
+}
+#introTitle p:nth-child(2){
+    display: flex;
+    justify-content: flex-start;   
+    flex: 2;
+}
+/******************************************************************************** 
+    第一页中间部分的个人头像展示部分样式    
+*******************************************************************************/
+#myPic{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+  
+}
+#myPic div:nth-child(1){
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+}
+#myPic div img:nth-child(1){
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#my-pic{
+    position: absolute;
+    top: 24%;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    
+    display: flex;
+    overflow: hidden;
+}
+#my-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/******************************************************************************** 
+    第一页中间部分的个人信息展示部分样式    
+*******************************************************************************/
+#personIntor{
+    display: flex;
+    flex: 2;
+    flex-flow: column;
+    justify-content: space-around;
+}
+#nameIntor{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1;
+}
+#nameIntor div{
+   
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+#nameIntor div img{
+    height: 50%;
+}
+#nameIntor p{
+   
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #ffffff;
+}
+#schoolIntor{
+   
+    display: flex;
+    flex: 1;
+}
+#schoolIntor p:nth-child(1){
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #ffffff;
+}
+#schoolIntor p:nth-child(2){
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #ffffff;
+}
+#toUp{
+    flex: 1;
+    display: flex;    
+    justify-content: center;
+    align-items: flex-end;
+}
+#toUp img{    
+    display: flex;
+    height: 50px;
+}
+/******************************************************************************** 
+    第二页中间部分的个人信息展示部分样式    
+*******************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
